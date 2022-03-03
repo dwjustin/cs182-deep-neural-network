@@ -1,0 +1,32 @@
+name: cs182_hw1
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.8
+  - cpuonly
+  - Cython
+  - matplotlib
+  - notebook
+  - ipykernel
+  - ipywidgets
+  - pip:
+    - scikit-image
+    - pylint
+    - black
+    - flake8
+    - ipdb
+    - einops
+    - glfw
+    - scikit-learn
+    - setuptools
+    - panda
+    - scipy
+    - glob2
+    - gpustat
+    - imageio
+    - imageio-ffmpeg
+    - moviepy
+    - opencv-python
+    - wandb
